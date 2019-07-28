@@ -1,0 +1,29 @@
+
+T1F68 000:454 SEGGER J-Link V4.80g Log File (0023ms, 0301ms total)
+T1F68 000:454 DLL Compiled: Feb 13 2014 20:50:02 (0023ms, 0301ms total)
+T1F68 000:454 Logging started @ 2016-04-11 11:50 (0023ms, 0301ms total)
+T1F68 000:477 JLINK_SetWarnOutHandler(...) (0000ms, 0301ms total)
+T1F68 000:477 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N: 805306163
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (0273ms, 0574ms total)
+T1F68 000:750 JLINK_SetErrorOutHandler(...) (0000ms, 0574ms total)
+T1F68 000:750 JLINK_ExecCommand("ProjectFile = "D:\adt-bundle-windows-x86_64-20131030\Workspace\pay0\Í¶±ÒÆ÷\Project\Pro\JLinkSettings.ini"", ...)  returns 0x00 (0118ms, 0692ms total)
+T1F68 000:876 JLINK_ExecCommand("Device = STM32F103C8", ...)Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).  returns 0x00 (0006ms, 0699ms total)
+T1F68 000:882 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0699ms total)
+T1F68 000:882 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0699ms total)
+T1F68 000:882 JLINK_GetDLLVersion()  returns 48007 (0000ms, 0699ms total)
+T1F68 000:882 JLINK_GetFirmwareString(...) (0000ms, 0699ms total)
+T1F68 000:904 JLINK_GetDLLVersion()  returns 48007 (0000ms, 0699ms total)
+T1F68 000:904 JLINK_GetCompileDateTime() (0000ms, 0699ms total)
+T1F68 000:909 JLINK_GetFirmwareString(...) (0000ms, 0699ms total)
+T1F68 000:913 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0699ms total)
+T1F68 000:935 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0002ms, 0701ms total)
+T1F68 000:937 JLINK_SetSpeed(2000) (0001ms, 0702ms total)
+T1F68 000:938 JLINK_GetId()
+  ***** Error: Supply voltage too low (1 Volt is required, Measured: 0.0 Volt).
+Please check target power.STM32F1xxx: Can not attach to CPU. Trying connect under reset.RESET (pin 15) high, but should be low. Please check target hardware.  returns 0x00000000 (0315ms, 1017ms total)
+T1F68 004:047 JLINK_Close() (0001ms, 1018ms total)
+T1F68 004:047  (0001ms, 1018ms total)
+T1F68 004:047 Closed (0001ms, 1018ms total)
